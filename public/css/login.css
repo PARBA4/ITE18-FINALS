@@ -1,0 +1,144 @@
+/* General Body Styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url("../img/admin.png"); /* Replace with the path to your image */
+    background-size: cover; /* Makes the image cover the entire background */
+    background-repeat: no-repeat; /* Ensures the image doesn’t repeat */
+    background-position: center; /* Centers the image */
+    height: 100%;
+    width: 100%;
+}
+
+.container1 {
+    display: flex;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+/* Container Style */
+.container {
+    display: flex;
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+li {
+    list-style: none;
+}
+
+/* Left Section Styles */
+.left-section {
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.left-section h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.register-btn {
+    background-color: #1a7801;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+.register-btn:hover {
+    background-color: #145d01;
+}
+
+.logo-img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Right Section Styles */
+.right-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #145d01;
+}
+
+.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #1a7801;
+    font-size: 24px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.login-btn {
+    background-color: #f9c100;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background-color: #dba600;
+}
